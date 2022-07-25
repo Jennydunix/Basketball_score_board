@@ -1,0 +1,63 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #0d0202f6;
+}
+
+h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+#home-score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 30px;
+}
+
+#guest-score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 30px;
+}
+main{
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;position: relative;
+    z-index: 1;
+    background: rgb(25, 25, 57);
+    max-width: 500px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    border-radius: 5px;
+    border-color: rgb(91, 91, 168);
+    cursor: pointer;
+    background:  rgb(25, 25, 57);
+    color: rgb(239, 238, 235);
+
+}
+
